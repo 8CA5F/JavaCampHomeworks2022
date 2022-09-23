@@ -7,8 +7,8 @@ public class Main {
         String frontVowels = "eiöü";
         String character = "i", result;
 
-        if(backVowels.contains(character)) result = "Letter is a back vowel.";
-        else if (frontVowels.contains(character)) result = "Letter is a front vowel.";
+        if(backVowels.contains(character)) result = "Character is a back vowel.";
+        else if (frontVowels.contains(character)) result = "Character is a front vowel.";
         else result = "Something went wrong!";
 
         System.out.println(result);
